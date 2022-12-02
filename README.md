@@ -1,3 +1,8 @@
+# Description
+Parcial 2 - Programación con Tecnologías Web
+
+Author: Juan Andrés Romero Colmenares - 202013449
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
