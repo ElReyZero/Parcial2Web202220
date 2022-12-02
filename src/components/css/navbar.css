@@ -1,0 +1,12 @@
+.navbar-custom {
+    background-color: lightblue !important;
+    float: left !important;
+    padding: 15px !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+
+.title-container {
+    text-align: center !important;
+    padding-left: 35% !important;
+}

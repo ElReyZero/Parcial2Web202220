@@ -1,0 +1,10 @@
+{
+    "bandName":"Name",
+    "bandCountry": "Country",
+    "bandGenre": "Genre",
+    "bandYear": "Creation Year",
+    "navbarTitle":"Music Bands",
+    "oldestBand1":"The oldest band is",
+    "oldestBand2": "and was formed ",
+    "oldestBand3": "years ago"
+}

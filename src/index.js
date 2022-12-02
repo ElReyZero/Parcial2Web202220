@@ -2,13 +2,28 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
+import { IntlProvider } from 'react-intl';
+import localeEsMessages from "./locales/es";
+import localeEnMessages from "./locales/en";
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+
+let locale = "en";
+let messages = localeEnMessages;
+
+if (navigator.language.includes("es")) {
+  messages = localeEsMessages;
+  locale = "es-ES";
+}
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <IntlProvider locale={locale} messages={messages}>
+      <App />
+    </IntlProvider>
   </React.StrictMode>
 );
 
